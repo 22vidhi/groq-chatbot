@@ -1,7 +1,9 @@
 # chatt.py
 
 import streamlit as st
-from groq_chatbot import get_groq_response  # Import function from other file
+from chat import get_groq_response
+
+
 
 # Streamlit page setup
 st.set_page_config(page_title="Groq Chatbot 🤖", layout="centered")
