@@ -1,7 +1,8 @@
 # chatt.py
 
 import streamlit as st
-from chat import get_groq_response
+from groq_chatbot import get_groq_response
+
 
 
 
